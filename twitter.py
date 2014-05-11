@@ -1,9 +1,14 @@
 #!/usr/bin/python
 
+# This program will print the prompt the user for a Twitter username and 
+# print the number of followers and the number of followers of each follower
+
 import tweepy
 
+# will print up to MAX_FOLLOWERS followers and their followers count
 MAX_FOLLOWERS = 50
 
+# authentication info
 consumer_key = 'gtTRVAy4u8969aIV8C4ZxwZfD'
 consumer_secret = '6eEA8ZYb9VPTD35kN8YYf9OsqF1yvx3bL5YDKOpBh9ffxYSZDE'
 access_token = '569880785-AGgDbbc5Pt3WneBhPXJOYLGyi21xTcNo1VME8AcI'
